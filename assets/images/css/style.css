@@ -1,0 +1,275 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #787878;
+}
+#cc, #triv, #kv, #groupee{
+    text-decoration: none;
+    color: white;
+}
+ 
+ ul {
+             list-style-type: none;
+            float: right;
+            padding: 1%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #787878;
+            
+ }
+
+
+ #title {
+     background-color: #4aaaa5;
+     float: left;
+     font-size: 40px;
+     color: white;
+     bottom: 0;
+     padding: 10px;
+ }
+
+ img {
+     height: 15%;
+     width: 15%;
+     padding-right: 10px;
+     float: left;
+ }
+
+ footer {
+     background-color: #787878;
+     border-top: 20px solid #4aaaa5;
+     height: 75px;
+     position: fixed; 
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     color: white;
+}
+  li {
+            border-right: solid 1px #E8E8E8;
+            float: right;
+            margin-right: 20px;
+            padding-right:20px;
+        }
+ li:first-child {
+            border-right: none;
+ }
+
+ .container {
+
+    width: 960px;
+    margin: auto;
+    overflow: auto;
+    padding-bottom: 200px;
+ }
+
+ body {
+     background-color: rgb(192, 189, 189);
+     overflow: auto;
+ }
+
+ .container2{
+     background-color: white;
+     top: 0;
+     padding: 0 20px;
+     margin-top: 20px;
+     padding-bottom: 20px;
+     overflow: auto;
+     
+ }
+
+ p {
+     font-size: 23px;
+ }
+
+ h2 {
+     font-size: 40px;
+     color: #4aaaa5;
+     padding-top: 10px;
+     padding-bottom: 0;
+    
+ }
+  
+ hr {
+     background-color: #787878;
+ }
+
+ input[type=text] {
+   width: 980px;
+}
+
+#message {
+    height: 200px;
+    width: 980px;
+}
+ #button{
+     background-color: #4aaaa5;
+     color: #ffffff;
+     margin: auto;
+     padding: 8px;
+ }
+ header{
+     background-color: white;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 100%;
+    margin-bottom: 40px;
+ }
+
+ .wrapper{
+     width: 960px;
+    margin:  auto;
+ }
+
+ input[type=text] {
+   width: 915px;
+}
+
+#message {
+    height: 200px;
+    width: 915px;
+}
+
+#oak,
+#mia2,
+#oak3 {
+    margin-left: 15px;
+}
+
+#mia2,
+#oak2,
+#mia3,
+#oak3 {
+    margin-top: 20px
+}
+
+#mia,
+#oak,
+#mia2,
+#oak2,
+#mia3,
+#oak3 {
+  font-family: 'Georgia', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  bottom: 20%;
+  z-index: 1000;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: white;
+  padding-top: 12px;
+
+}
+
+.container3 {
+    height: 95px;
+    margin: auto;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+}
+
+.title {
+    color: white;
+    background: #4aaaa5;;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 20px;
+    width: 250px;
+}
+
+.miami {
+    background-image: url(Brady.jpg);
+}
+
+.Arizona {
+    background-image: url(Arizona.jpg);
+}
+.crystal{
+    background-image: url(whitegem.jpg);
+}
+.trivia{
+    background-image: url(Blue-Textured-Background.jpg)
+}
+.kidVoice{
+    background-image: url(kid_voice.jpg)
+}
+.groupee{
+    background-image: url(groupee.jpg)
+}
+@media screen and (max-width: 800px) {
+    
+  .wrapper{
+       width: 100%;
+       text-align: center;
+   }
+   #title{
+       width: 100%;
+   }
+  a {
+      color: white;
+      text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    #name, #email, #message{
+        width: 100%;
+    }
+ 
+
+}
